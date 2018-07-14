@@ -34,6 +34,7 @@ type Client interface {
 	Auth
 	KV
 	Sys
+	Raw
 }
 
 var (
